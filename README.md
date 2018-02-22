@@ -1,5 +1,5 @@
-# Mountain Top for Strava
-An unofficial [Strava](http://www.strava.com) skill for reviewing your Strava account through Amazon Alexa.
+# Training Stats for Strava
+An unofficial [Strava](http://www.strava.com) skill for reviewing your Strava account through Amazon Alexa. Forked from Nick Coury's Mountain Top project (https://github.com/nickcoury/mountain-top).
 
 ## Features
 This skill can:
@@ -7,8 +7,8 @@ This skill can:
 - Read back recent activity details.
 
 ## Examples
-    User: "Alexa, ask mountain top for my summary."
-    User: "Alexa, ask mountain top for my recent activities"
+    User: "Alexa, ask Training Stats for my summary."
+    User: "Alexa, ask Training Stats for my recent activities"
 
 ## Setup
 Copy `src/data/strava_config.template` to `src/data/strava_config` and fill in credentials.

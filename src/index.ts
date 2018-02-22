@@ -79,7 +79,7 @@ import summaryHandler from './handlers/summary';
         }).catch(function (err) {
         }).then(function (name) {
             name = name || '';
-            text += `Hello ${name}. Welcome to Mountain Top. Say summary to get your summary, or, you can ask for help.`;
+            text += `Hello ${name}. Welcome to Training Stats. Say summary to get your summary, or, you can ask for help.`;
             console.log(text);
             response
                 .say(validateText(text))
@@ -107,7 +107,7 @@ import summaryHandler from './handlers/summary';
 
     function exitHandler(request, response) {
         console.log('exitHandler');
-        const text = 'Thanks for using Mountain Top!';
+        const text = 'Thanks for using Training Stats!';
         response
             .say(validateText(text))
             .send();
